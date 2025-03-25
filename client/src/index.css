@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --base-grid: 8px;
+  --colour-white: #fff;
+  --colour-black: #1a1a1a;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(-170deg, #064997 20%, #105ba7);
+  background-position: 100%;
+}
+
+body {
+  background-image: linear-gradient(270deg, #2b67ac 3px, transparent 0),
+    linear-gradient(#2b67ac 3px, transparent 0),
+    linear-gradient(270deg, rgba(43, 103, 172, 0.4) 1px, transparent 0),
+    linear-gradient(#2b67ac 1px, transparent 0),
+    linear-gradient(270deg, rgba(43, 103, 172, 0.4) 1px, transparent 0),
+    linear-gradient(#2b67ac 1px, transparent 0);
+  background-size: 112px 112px, 112px 112px, 56px 56px, 56px 56px, 28px 28px,
+    28px 28px;
+  font-family: Josefin Sans, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100svh;
+}
